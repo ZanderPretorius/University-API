@@ -11,7 +11,7 @@ def home(country):
     country = (country)
     universities = get_university_data(country)
 
-    return (universities)
+    return render_template('result.html', universities=universities)
 
 
 if __name__ == '__main__':
