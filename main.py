@@ -1,9 +1,10 @@
 from flask import Flask, render_template, redirect, url_for, request
 from university_data import get_university_data
-
+from flask_bootstrap import Bootstrap
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "fbhsikufgkbwigfuidekd7i6i"
+app.config["SECRET_KEY"] = "fbhsikufdasgkbwigfuidekd7i6i"
+Bootstrap(app)
 
 
 @app.route("/universities-<country>")

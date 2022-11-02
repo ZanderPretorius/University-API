@@ -1,30 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+{% include "top.html" %}
+
 <body>
     {% for uni in universities: %}
 
-    
+
     <!-- <p>{{uni['name']}}  {{uni['country']}}</p> -->
 
     <p>{{uni}}</p>
 
     {% endfor %}
 
-    <img src="images\uni0.jpg" alt="">
-    <img src="images\uni1.jpg" alt="">
-    <img src="images\uni2.jpg" alt="">
-    <img src="images\uni3.jpg" alt="">
-    <img src="images\uni4.jpg" alt="">
-    <img src="images\uni5.jpg" alt="">
-    <img src="images\uni6.jpg" alt="">
-    <img src="images\uni7.jpg" alt="">
-    <img src="images\uni8.jpg" alt="">
-    <img src="images\uni9.jpg" alt="">
+
+    <img src="static/images\uni0.jpg" alt="">
+    <img src="static/images\uni1.jpg" alt="">
+    <img src="static/images\uni2.jpg" alt="">
+    <img src="static/images\uni3.jpg" alt="">
+    <img src="static/images\uni4.jpg" alt="">
+    <img src="static/images\uni5.jpg" alt="">
+    <img src="static/images\uni6.jpg" alt="">
+    <img src="static/images\uni7.jpg" alt="">
+    <img src="static/images\uni8.jpg" alt="">
+    <img src="static/images\uni9.jpg" alt="">
 </body>
-</html>
+{% include "bottom.html" %}
