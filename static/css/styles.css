@@ -1,8 +1,25 @@
-img {
-    width: 15rem;
-    height: 15rem;
+body {
+    background-color: aliceblue;
 }
 
-body {
-    background-color: red;
+.university-card {
+    font-family: 'Courier New', Courier, monospace;
+    width: 1200px;
+    height: 144px;
+    background-color: blanchedalmond;
+    border: solid 5px;
+    border-radius: 2%;
+    padding: 12px;
+}
+
+.title {
+    padding-bottom: 30px;
+}
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+  
+th {
+    width: 33%
 }
