@@ -1,25 +1,25 @@
 {% include "top.html" %}
 
 
-    {% for uni in universities: %}
+<h1 class="title">Top Universities in {{country.title()}}</h1>
+
+{% for uni in universities: %}
 
 
-    <p>{{uni['name']}}  {{uni['country']}}</p>
+<div class="university-card">
 
-    <p>{{uni}}</p>
+    <table>
+        <th>
+            {{uni["name"]}}
+        </th>
+        <th><a href="{{uni['web_pages'][0]}}" target="_blank">Website</a></th>
+    </table>
 
-    {% endfor %}
+
+</div>
+
+{% endfor %}
 
 
-    <img src="static/images\uni0.jpg" alt="">
-    <img src="static/images\uni1.jpg" alt="">
-    <img src="static/images\uni2.jpg" alt="">
-    <img src="static/images\uni3.jpg" alt="">
-    <img src="static/images\uni4.jpg" alt="">
-    <img src="static/images\uni5.jpg" alt="">
-    <img src="static/images\uni6.jpg" alt="">
-    <img src="static/images\uni7.jpg" alt="">
-    <img src="static/images\uni8.jpg" alt="">
-    <img src="static/images\uni9.jpg" alt="">
 
 {% include "bottom.html" %}

@@ -4,27 +4,27 @@ body {
 
 .university-card {
     font-family: 'Courier New', Courier, monospace;
-    width: 1200px;
-    height: 144px;
+    width: 400px;
     background-color: blanchedalmond;
     border: solid 5px;
     border-radius: 2%;
     padding: 12px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .title {
     padding-bottom: 30px;
 }
+
 table {
-    width: 100%;
+    /* width: 100%; */
+    width: 400px;
     table-layout: fixed;
 }
-.flag {
-    position: relative;
-    width: 150px;
-    height: 100px;
-}
+
 th {
-    width: 33%;
+    width: 50%;
     text-align: center;
 }

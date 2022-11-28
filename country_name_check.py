@@ -5,7 +5,7 @@ def check_country_name(cd_name):
 
     res_name = ""
     c_name = cd_name.lower()
-    if c_name == "usa":
+    if c_name == "usa" or c_name == "united states of america":
         res_name = "united states"
 
     elif c_name == "burma":
@@ -28,6 +28,12 @@ def check_country_name(cd_name):
 
     elif c_name == "kingdom of saudi arabia":
         res_name = "saudi arabia"
+
+    elif c_name == "korea" or c_name == "south korea":
+        res_name = "korea, republic of"
+
+    elif c_name == "n korea" or c_name == "north korea":
+        res_name = "korea, democratic people's republic of"
 
     elif c_name.title() in us_states:
         res_name = "united states"

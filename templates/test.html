@@ -1,22 +1,15 @@
 {% include "top.html" %}
 
-<h1 class="title">Universities in South Africa</h1>
+<h1>Country Search</h1>
 
+<form method="post" action="{{ url_for('test')}}">
+    {{form.csrf_token}}
 
-<div class="university-card">
+    {{ form.country_req.label }}
+    {{ form.country_req(size=40) }}
 
+    {{form.submit}}
 
-<table>
-    <th>
-        University of Nottingham United Kingdom
-    </th>
-    <th><img class="flag" src="static\images\Flag-Peru.webp" alt=""></th>
-    <th> <a href="https://www.kamalodge.com/" target="_blank">Website</a></th>
-</table>
-   
-
-
-
-</div>
+</form>
 
 {% include "bottom.html" %}
