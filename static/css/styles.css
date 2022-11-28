@@ -19,7 +19,12 @@ table {
     width: 100%;
     table-layout: fixed;
 }
-  
+.flag {
+    position: relative;
+    width: 150px;
+    height: 100px;
+}
 th {
-    width: 33%
+    width: 33%;
+    text-align: center;
 }
