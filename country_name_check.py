@@ -29,6 +29,9 @@ def check_country_name(cd_name):
     elif c_name == "kingdom of saudi arabia":
         res_name = "saudi arabia"
 
+    elif c_name == "syria":
+        res_name = "syrian arab republic"
+
     elif c_name == "korea" or c_name == "south korea":
         res_name = "korea, republic of"
 
